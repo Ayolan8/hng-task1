@@ -1,0 +1,83 @@
+*:not(ul, ol) {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #393232;
+}
+
+main {
+    margin-top: 60px;
+    gap: 1.2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.img-div {
+    max-width: 700px;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+}
+
+.first-ul{
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+   background-color: white;
+   border-radius: 10px;
+    list-style: none;
+}
+
+.goal-heading{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul, ol, li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* utility classes */
+
+.flex{
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        font-size: 18px;
+    }
+}

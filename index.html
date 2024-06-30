@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Task 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="flex flex-col align-center ">
+        <div class="info">
+            <h2 data-testid="slackDisplayName">Ijalana Afolabi Isaiah</h2>
+
+            <div class="flex flex-wrap gap-1">
+                <p>Front-end Developer</p>
+                <p data-testid="slackEmail">iijalana@gmail.com</p>
+            </div>
+            
+        </div>
+
+        <div class="img-div">
+            <img src="ijalana ijalana.jpg" alt="profile pics" data-testid="slackProfilePicture" height="400px" width="100%">
+            
+        </div>
+
+        <ul class="first-ul">
+            <h3 class="goal-heading">My goals for the next 2 years in tech are:</h3>
+            <li>
+                <ol>
+                    <li>Master Frontend Frameworks:
+                        <ul>
+                            <li>Gain advanced proficiency in React</li>
+                            <li>Build and deploy at least three full-stack applications using these frameworks</li>
+                        </ul>
+                    </li>
+
+                    <li>Improve CSS Skills:
+                        <ul>
+                            <li>Learn advanced CSS techniques and preprocessors</li>
+                            <li> Explore CSS frameworks like Tailwind CSS or Bootstrap.</li>
+                            <li> Explore CSS frameworks like Tailwind CSS or Bootstrap.</li>
+                        </ul>
+                    </li>
+
+                    <li>Enhance JavaScript Knowledge:
+                        <ul>
+                            <li>Deepen understanding of modern JavaScript (ES6+).</li>
+                            <li>Learn TypeScript to add type safety to your projects.</li>
+                            <li>Complete at least two courses or certifications in JavaScript/TypeScript.</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Testing and Debugging
+                        <ul>
+                            <li> Master testing frameworks such as Jest and React Testing Library.</li>
+                            <li>Write comprehensive unit, integration, and end-to-end tests for all projects.</li>
+                            <li>Improve debugging skills using tools like Chrome DevTools.</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Collaboration and Tools
+                        <ul>
+                            <li>Get comfortable with Git and version control best practices.</li>
+                            <li>Contribute to open-source projects to gain collaboration experience.</li>
+                            <li>Learn to use project management tools like Jira or Trello.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </main>
+    
+    <footer>
+        <div class="flex flex-col align-center flex-wrap">
+            <p> &copy; Ijalana Afolabi Isaiah</p>
+
+            <p>
+                <em>
+                    <span id="current-time" data-testid="currentTimeUTC"></span>
+                :&nbsp;<span id="current-day" data-testid="currentDay"></span>
+                </em>
+            </p>
+        </div>
+       
+       <p>Intern at <a href="hng.tech/learn" data-testid="hngLink" target="_blank">HNG</a></p>
+       <p>Read more <a href="scrapeanyweb.site" data-testid="scrapeanywebLink" target="_blank">here</a></p>
+       <p>Find <a href="keyword.dog" target="_blank" data-testid="keywordLink">keyword</a></p>
+    
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
