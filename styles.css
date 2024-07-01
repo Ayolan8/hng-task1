@@ -21,15 +21,6 @@ h2{
     font-size: 30px;
 }
 
-.img-div {
-    max-width: 700px;
-}
-
-img {
-    display: block;
-    object-fit: contain;
-}
-
 .first-ul{
     margin-left: 0;
     margin-bottom: 10px;
