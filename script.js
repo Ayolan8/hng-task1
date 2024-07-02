@@ -9,4 +9,5 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday",
 
 
 currentDay.textContent = days[date.getDay()];
+
 currentTime.textContent = date.toISOString().slice(11, 19); 

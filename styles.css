@@ -55,6 +55,10 @@ footer{
     align-items: center;
 }
 
+.just-center {
+    justify-content: center;
+}
+
 .flex-col {
     flex-direction: column;
 }
